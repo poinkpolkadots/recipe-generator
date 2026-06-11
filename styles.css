@@ -1,0 +1,56 @@
+body {
+    font-family: "Gamja Flower", cursive, sans-serif;
+    font-size: 30pt;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 90px 0 0;
+    background-color: #FCFBF4;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title {
+    color: #462521;
+    text-decoration: #AECD27 dashed underline;
+    margin: 0;
+}
+
+#result {
+    background-color: #FFE0B5;
+    border: 5px solid #CA2E55;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 100px;
+}
+
+#button {
+    cursor: pointer;
+    font-size: 25pt;
+    margin-top: 20px;
+    border: 5px dashed #AECD27;
+    background-color: #FFE0B5;
+    border-radius: 15px;
+    padding: 15px;
+    line-height: 10px;
+    height: 25px;
+}
+
+#button:hover {
+    box-shadow: 2px 2px 5px #462521,
+    2px 2px 2px inset #462521;
+}
+
+#button:active {
+    box-shadow: 2px 2px 5px #462521,
+    2px 2px 5px inset #462521;
+
+}
+
+#inline-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
