@@ -12,6 +12,20 @@ main {
     margin-right: 20px;
 }
 
+footer {
+    font-size: 15pt;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #FFE0B5;
+    color: #462521;
+}
+
+footer a {
+    color: #CA2E55;
+}
+
 .title {
     color: #462521;
     text-decoration: #AECD27 dashed underline;
