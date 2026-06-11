@@ -29,6 +29,7 @@ footer a {
 .title {
     color: #462521;
     text-decoration: #AECD27 dashed underline;
+    text-decoration-thickness: 5px;
     margin: 0;
 }
 
